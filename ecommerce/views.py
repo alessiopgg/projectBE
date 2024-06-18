@@ -97,7 +97,13 @@ def completeOrder(request):
 
 @login_required
 def my_orders(request):
-    customer = request.user.customer
-    orders = Order.objects.filter(customer=customer, complete=True).order_by('-date_ordered')
-    context = {'orders': orders}
+    if request.user.is_authenticated:
+        customer = request.user.customer
+        orders = Order.objects.filter(customer=customer, complete=True)
+        order_items = OrderItem.objects.filter(order__in=orders)
+    else:
+        orders = []
+        order_items = []
+
+    context = {'orders': orders, 'order_items': order_items}
     return render(request, 'ecommerce/my_orders.html', context)
