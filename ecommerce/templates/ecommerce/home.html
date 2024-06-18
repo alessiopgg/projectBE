@@ -16,9 +16,9 @@
 
     <style>
         .card {
-            background-color: #f7f1e3; /* Colore di sfondo della card */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
-            margin-bottom: 20px; /* Margine per distanziare le card */
+            background-color: #f7f1e3;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -26,17 +26,17 @@
         }
 
         .card-body {
-            color: #2f3542; /* Colore del testo */
+            color: #2f3542;
         }
 
         .btn-primary {
-            background-color: #ffa502; /* Colore del pulsante */
-            border-color: #ff7f50; /* Colore del bordo del pulsante */
+            background-color: #ffa502;
+            border-color: #ff7f50;
         }
 
         .btn-primary:hover {
-            background-color: #ff6348; /* Colore del pulsante al passaggio del mouse */
-            border-color: #ff4500; /* Colore del bordo del pulsante al passaggio del mouse */
+            background-color: #ff6348;
+            border-color: #ff4500;
         }
         .story {
             padding: 20px;
@@ -48,7 +48,7 @@
             width: 100%;
             height: auto;
             display: block;
-            margin: 10px 0; /* Margine sopra e sotto */
+            margin: 10px 0;
         }
         .subtitle {
             font-family: 'Playwrite NG Modern', cursive;
@@ -130,7 +130,10 @@
                                     <p class="card-text">{{ item.description }}</p>
                                     <p>${{ item.price }}</p>
                                     <input type="number" class="form-control quantity-input" value="1" min="1" style="width: 60px; display: inline-block; margin-right: 10px;">
-                                    <button data-product="{{ item.id }}" data-action="add" class="btn btn-primary update-cart">Add to Cart</button>
+                                    <button data-product="{{ item.id }}" data-action="add" class="btn btn-primary update-cart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                                        <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9z"/>
+                                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                                    </svg> </button>
                                 </div>
                             </div>
                         </div>
@@ -172,12 +175,11 @@
         updateBtns[i].addEventListener('click', function() {
             var productId = this.dataset.product
             var action = this.dataset.action
-            var quantity = this.previousElementSibling.value  // Get the value from the quantity input
+            var quantity = this.previousElementSibling.value
             console.log('productId:', productId, 'action:', action, 'quantity:', quantity)
 
             if (user === 'AnonymousUser') {
                 console.log('User is not authenticated')
-                // Puoi gestire il comportamento per gli utenti non autenticati qui
             } else {
                 updateUserOrder(productId, action, quantity)
             }
@@ -206,7 +208,6 @@
             })
     }
 
-    // Get CSRF token
     function getCookie(name) {
         let cookieValue = null;
         if (document.cookie && document.cookie !== '') {
