@@ -55,6 +55,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'projectBE.urls'
+LOGIN_REDIRECT_URL = '/ecommerce/'
 
 TEMPLATES = [
     {
