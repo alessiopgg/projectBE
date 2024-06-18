@@ -1,11 +1,10 @@
 from django.shortcuts import render, redirect
-import json
 from django.contrib.auth.forms import UserCreationForm
-from django.http import JsonResponse
 from django.contrib.auth import authenticate, login
-
 from .form import CustomUserCreationForm
 from .models import *
+import json
+from django.http import JsonResponse
 
 
 # Create your views here.
@@ -13,16 +12,17 @@ def ecommerce(request):
     items = Item.objects.all()
     return render(request, 'ecommerce/home.html', {'items': items})
 
+
 def register(request):
     if request.method == 'POST':
         form = CustomUserCreationForm(request.POST)
         if form.is_valid():
-            user = form.save()
+            user = form.save(commit=False)
             user.first_name = form.cleaned_data.get('first_name')
             user.last_name = form.cleaned_data.get('last_name')
             user.email = form.cleaned_data.get('email')
             user.save()
-            customer = Customer.objects.create(user=user, name=user.username)
+            customer, created = Customer.objects.get_or_create(user=user, defaults={'name': user.username})
             login(request, user)
             return redirect('ecommerce')
     else:

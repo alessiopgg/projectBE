@@ -48,7 +48,7 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',  # Verifica che questa linea sia presente
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -56,6 +56,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'projectBE.urls'
 LOGIN_REDIRECT_URL = '/ecommerce/'
+LOGOUT_REDIRECT_URL = '/ecommerce/'
+
 
 TEMPLATES = [
     {
@@ -116,6 +118,9 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+DEBUG = True
+
 
 
 # Static files (CSS, JavaScript, Images)
