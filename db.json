@@ -1,0 +1,1229 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-06-03T13:02:41.931Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Lager",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-06-03T13:05:01.272Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Lager",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-06-03T13:09:58.074Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Lager",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-06-03T14:36:43.152Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Pilsner",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-06-03T14:39:24.293Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Pale Ale",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-06-03T14:39:32.372Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Pilsner",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-06-03T14:41:54.869Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Stout",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-06-03T14:44:05.185Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Porter",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-06-03T14:45:51.945Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Wheat Beer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-06-03T14:47:48.839Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Saison",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-06-03T14:51:33.218Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Belgian Ale",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-06-03T14:55:32.620Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Amber Ale",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-06-03T14:58:25.201Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Barleywine",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-06-03T15:00:26.284Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Gose",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-06-03T15:03:50.961Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Triple",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-06-17T17:28:08.815Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "mario",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-06-17T17:39:46.983Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "anna",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-06-17T17:40:01.603Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "mario",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-06-18T10:08:07.728Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "gigi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add item",
+    "content_type": 7,
+    "codename": "add_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change item",
+    "content_type": 7,
+    "codename": "change_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete item",
+    "content_type": 7,
+    "codename": "delete_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view item",
+    "content_type": 7,
+    "codename": "view_item"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add customer",
+    "content_type": 8,
+    "codename": "add_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change customer",
+    "content_type": 8,
+    "codename": "change_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete customer",
+    "content_type": 8,
+    "codename": "delete_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view customer",
+    "content_type": 8,
+    "codename": "view_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 9,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 9,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 9,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 9,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 10,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 10,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 10,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 10,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add shipping address",
+    "content_type": 11,
+    "codename": "add_shippingaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change shipping address",
+    "content_type": 11,
+    "codename": "change_shippingaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete shipping address",
+    "content_type": 11,
+    "codename": "delete_shippingaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view shipping address",
+    "content_type": 11,
+    "codename": "view_shippingaddress"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$uFG2sk8DBytN7oaql7713b$Gg+L9JdWgn+g6Pe94mOzCarkRtHnJbn6vljzMXo2xAM=",
+    "last_login": "2024-06-18T16:43:39.220Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "alepoggejakad@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-06-03T09:27:37.165Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$mjwTbiVc3GdwAiaFd1bcrj$hq71wxgFQ5J4zHcueDynxXeJbwz0OHONPt30e5qSXxQ=",
+    "last_login": "2024-06-17T17:27:17Z",
+    "is_superuser": false,
+    "username": "mario",
+    "first_name": "Mario",
+    "last_name": "Rossi",
+    "email": "mariorossi@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-17T17:27:17Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$pQc44L5bKKaKhYJA0oU33E$O8EHPne4nAeQUu0WdmwUaiI2iJaQmDRohw4uyzIwU7o=",
+    "last_login": "2024-06-18T17:16:01.446Z",
+    "is_superuser": false,
+    "username": "anna",
+    "first_name": "Anna",
+    "last_name": "Lama",
+    "email": "annina@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-17T17:34:17Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$JVynMlXdAo4aQkHjUZuK0Z$nhf/kZRxoq2XqL5hV5ATWsoSEZXw0DaU4e4RZZ065N4=",
+    "last_login": "2024-06-17T17:42:33.982Z",
+    "is_superuser": false,
+    "username": "riky",
+    "first_name": "riccardo",
+    "last_name": "neri",
+    "email": "rikiblack@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-17T17:42:33.791Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$NTiQx6DBu6nkr6nZcWXHoa$W+6RRgxgOqAzV2ZKbaXaltV3grTcC/E1TCZ5kfosPaY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ciro",
+    "first_name": "ciro",
+    "last_name": "esposito",
+    "email": "ciruz@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-18T09:25:59.716Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$poRHsjsoZ0iHVDtdOL4myw$WgrvkI7Ngj77f8tVo8jZsub067QuuOzknVrlBNdgFlg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "gianni4",
+    "first_name": "gianni",
+    "last_name": "verdi",
+    "email": "gianni@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-18T09:38:21.664Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$UKOQk6z449FD8ArerUstFE$CGSEmhCYgyACrExyM2vaoXfd0MFgyXek8FC6Zy7hAaQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "lori",
+    "first_name": "lorenzo",
+    "last_name": "neri",
+    "email": "lello@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-18T09:45:39.622Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$pL3RcImWfvMvkeVLC3Rn7Q$V8chuRoKxlvspltwR8Gh4FecbP1U7DFQWJIrmF6Jn2w=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "tino",
+    "first_name": "tino",
+    "last_name": "Tiberi",
+    "email": "tino@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-18T10:04:47.666Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$rdRCqqBzrqRgxQJ2wBXSGl$9FwMNYdGseI4nxdWcOHEdKxYFjOZckRNA9CUU30ZTkE=",
+    "last_login": "2024-06-18T10:07:02.811Z",
+    "is_superuser": false,
+    "username": "floy",
+    "first_name": "flavia",
+    "last_name": "gini",
+    "email": "fla@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-18T10:07:02.594Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$wRmcYh3mCn1VZUleKr4adT$AKLM5U0eaFEOdFLTxz2LPLB0c4YQ8osa2q0N1X48KME=",
+    "last_login": "2024-06-18T16:40:15.803Z",
+    "is_superuser": false,
+    "username": "samu",
+    "first_name": "samuele",
+    "last_name": "lalli",
+    "email": "samulalli@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-18T16:40:15.581Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "ecommerce",
+    "model": "item"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "ecommerce",
+    "model": "customer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "ecommerce",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "ecommerce",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "ecommerce",
+    "model": "shippingaddress"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7wmtnutxcocv6dsxj1y73sc7mvvjk5va",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSG8B1y69xvIwFCpGkhKuzL-uzbpQrf3nHNfLOK21riNssSZ2JlJdvrdEuZHaTugO7Zb57m3dZkT3xV-0MGvncrzcrh_BxVH_dZCGS1RGU-I2nlwAMkjCSgeVVE-JzAa0GqyOYAIE1pAR5qmIoPSlr0_yxM3eQ:1sJVST:Ctf9KcDFjgpxd4VylMsw0nZMmfzq9aMRoV0hyPTf6vk",
+    "expire_date": "2024-07-02T09:48:57.037Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qrovdsklfz3dpy4wkm2i9ivv4r3fbr6b",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hBsGQZcuu8ZyMCAVA0kpV0Z765NutDtf-_9l_C0rcVvPS1-ZnERZ3H63QLFR6o74DvVW5Ox1XWZg9wVedAup8bpeT3cv4NCvXxrRYRM0WjSkNloGBlxZNaWksoRR9JGOYvOBMAhAKQAzio3ZGMdAYv3B-2hN70:1sE3zY:4J_6dJlb1Ij5YY2CgzWkVBpKBJKNnsZ9jp-ii30VMfE",
+    "expire_date": "2024-06-17T09:28:36.875Z"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 1,
+  "fields": {
+    "name": "Lager",
+    "description": "A refreshing and crisp beer with a light flavor.",
+    "price": 3.99,
+    "image": "lager.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 2,
+  "fields": {
+    "name": "Pilsner",
+    "description": "A pale, golden beer with a dry, hoppy flavor.",
+    "price": 4.49,
+    "image": "pilsner.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 3,
+  "fields": {
+    "name": "Pale Ale",
+    "description": "A balanced beer with a mix of malty sweetness and hoppy bitterness.",
+    "price": 4.29,
+    "image": "pale_ale.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 4,
+  "fields": {
+    "name": "Stout",
+    "description": "A dark, rich beer with flavors of chocolate and coffee.",
+    "price": 5.49,
+    "image": "stout.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 5,
+  "fields": {
+    "name": "Porter",
+    "description": "A dark, malty beer with notes of caramel and chocolate.",
+    "price": 5.29,
+    "image": "porter.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 6,
+  "fields": {
+    "name": "Wheat Beer",
+    "description": "A light and refreshing beer with a fruity flavor.",
+    "price": 4.79,
+    "image": "wheat_beer.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 7,
+  "fields": {
+    "name": "Saison",
+    "description": "A farmhouse ale with a spicy and fruity flavor.",
+    "price": 5.19,
+    "image": "saison.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 8,
+  "fields": {
+    "name": "Belgian Ale",
+    "description": "A complex beer with fruity and spicy flavors.",
+    "price": 5.69,
+    "image": "belgian_ale.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 9,
+  "fields": {
+    "name": "Amber Ale",
+    "description": "A balanced beer with caramel malt flavors and moderate hoppiness.",
+    "price": 4.49,
+    "image": "amber_ale.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 10,
+  "fields": {
+    "name": "Barleywine",
+    "description": "A strong, malty beer with a high alcohol content.",
+    "price": 7.99,
+    "image": "barleywine.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 11,
+  "fields": {
+    "name": "Gose",
+    "description": "A sour and salty beer with a refreshing flavor.",
+    "price": 5.19,
+    "image": "gose.png"
+  }
+},
+{
+  "model": "ecommerce.item",
+  "pk": 12,
+  "fields": {
+    "name": "Triple",
+    "description": "A strong, pale Belgian ale with fruity and spicy flavors.",
+    "price": 6.49,
+    "image": "triple.png"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "name": "mariorossi@gmail.com"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "name": "anna"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 3,
+  "fields": {
+    "user": 4,
+    "name": "riky"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "name": "admin"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "name": "ciro"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 6,
+  "fields": {
+    "user": 6,
+    "name": "gianni4"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 7,
+  "fields": {
+    "user": 7,
+    "name": "lori"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 9,
+  "fields": {
+    "user": 9,
+    "name": "tino"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 10,
+  "fields": {
+    "user": 10,
+    "name": "floy"
+  }
+},
+{
+  "model": "ecommerce.customer",
+  "pk": 11,
+  "fields": {
+    "user": 11,
+    "name": "samu"
+  }
+},
+{
+  "model": "ecommerce.order",
+  "pk": 1,
+  "fields": {
+    "customer": 4,
+    "date_ordered": "2024-06-17T18:00:16.908Z",
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "ecommerce.order",
+  "pk": 2,
+  "fields": {
+    "customer": 2,
+    "date_ordered": "2024-06-18T09:12:18.024Z",
+    "complete": true,
+    "transaction_id": null
+  }
+},
+{
+  "model": "ecommerce.order",
+  "pk": 3,
+  "fields": {
+    "customer": 2,
+    "date_ordered": "2024-06-18T11:00:35.868Z",
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "ecommerce.order",
+  "pk": 4,
+  "fields": {
+    "customer": 11,
+    "date_ordered": "2024-06-18T16:40:33.173Z",
+    "complete": true,
+    "transaction_id": null
+  }
+},
+{
+  "model": "ecommerce.orderitem",
+  "pk": 2,
+  "fields": {
+    "product": 3,
+    "order": 2,
+    "quantity": 4,
+    "date_added": "2024-06-18T10:43:21.921Z"
+  }
+},
+{
+  "model": "ecommerce.orderitem",
+  "pk": 3,
+  "fields": {
+    "product": 4,
+    "order": 2,
+    "quantity": 5,
+    "date_added": "2024-06-18T10:44:11.805Z"
+  }
+},
+{
+  "model": "ecommerce.orderitem",
+  "pk": 4,
+  "fields": {
+    "product": 6,
+    "order": 2,
+    "quantity": 3,
+    "date_added": "2024-06-18T10:46:36.414Z"
+  }
+},
+{
+  "model": "ecommerce.orderitem",
+  "pk": 6,
+  "fields": {
+    "product": 1,
+    "order": 4,
+    "quantity": 1,
+    "date_added": "2024-06-18T16:40:39.263Z"
+  }
+},
+{
+  "model": "ecommerce.orderitem",
+  "pk": 7,
+  "fields": {
+    "product": 5,
+    "order": 4,
+    "quantity": 1,
+    "date_added": "2024-06-18T16:40:40.803Z"
+  }
+},
+{
+  "model": "ecommerce.orderitem",
+  "pk": 8,
+  "fields": {
+    "product": 9,
+    "order": 4,
+    "quantity": 1,
+    "date_added": "2024-06-18T16:40:43.774Z"
+  }
+}
+]
