@@ -11,3 +11,5 @@ Once you have placed an order, you can view it under "My Orders" in the main nav
 Finally, the navigation bar has a "Logout" option to disconnect your profile.
 
 Further interface elements are purely decorative.
+
+https://projectbeon-production.up.railway.app/ecommerce/
