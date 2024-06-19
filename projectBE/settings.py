@@ -31,8 +31,9 @@ SECRET_KEY = 'django-insecure-@4s_3&&ac-9#ztco3z_=3ce5jm1)nts#zd($czmw07*rre%+u*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['projectbeon-production.up.railway.app', 'localhost', '127.0.0.1']
 
+CSRF_TRUSTED_ORIGINS = ['https://projectbeon-production.up.railway.app']
 
 # Application definition
 
@@ -94,9 +95,6 @@ DATABASES = {
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
-# Sicurezza in produzione
-ALLOWED_HOSTS = ['*']
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
@@ -126,10 +124,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
-DEBUG = True
-
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
