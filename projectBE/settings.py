@@ -88,6 +88,7 @@ DATABASES = {
         default=os.getenv('DATABASE_URL')
     )
 }
+
 # Configura i file statici
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
