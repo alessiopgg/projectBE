@@ -1,14 +1,8 @@
 {
   "build": {
-    "env": {
-      "PYTHON_VERSION": "3.11"
-    }
+    "builder": "NIXPACKS"
   },
   "deploy": {
-    "env": {
-      "DJANGO_SETTINGS_MODULE": "projectBE.settings",
-      "SECRET_KEY": "your-secret-key",
-      "DEBUG": "False"
-    }
+    "startCommand": "gunicorn projectBE.wsgi --log-file -"
   }
 }
