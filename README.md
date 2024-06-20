@@ -12,4 +12,8 @@ Finally, the navigation bar has a "Logout" option to disconnect your profile.
 
 Further interface elements are purely decorative.
 
+Test Account:
+Username: prova
+Password: Provaprova123
+
 https://projectbeon-production.up.railway.app/ecommerce/
