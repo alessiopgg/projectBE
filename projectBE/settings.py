@@ -69,7 +69,7 @@ WSGI_APPLICATION = 'projectBE.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://postgres:dGNQsOQurYrPRiNkaLyHmZlJCHLkLcaX@viaduct.proxy.rlwy.net:49315/railway'
+        default='postgres://postgres:IfRUULatnWLMHfmjcxOJsDLDSDqlEfbm@monorail.proxy.rlwy.net:port/railway'
     )
 }
 
